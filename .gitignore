@@ -1,0 +1,28 @@
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+!**/.env.example
+**/application-local.*
+
+# Dependencies and builds
+node_modules/
+dist/
+*.tsbuildinfo
+.gradle/
+build/
+out/
+*.class
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs and local data
+*.log
+.data/
+.npm-cache/
+.gradle-cache/
