@@ -1,0 +1,38 @@
+.page { max-width: 1120px; margin: 0 auto; padding: 0 40px; }
+.header { min-height: 88px; display: flex; align-items: center; justify-content: space-between; gap: 20px; border-bottom: 1px solid #e3eaf1; }
+.wordmark { color: #202c3c; text-decoration: none; font-size: 25px; font-weight: 800; letter-spacing: -1px; }
+.wordmark span, h1 span { color: #3378b8; }
+.environment { color: #586b80; font-size: 13px; }
+main { max-width: 800px; margin: 88px auto 80px; }
+.eyebrow, .section-label { color: #496d91; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; }
+h1 { margin: 16px 0; font-size: clamp(34px, 5vw, 52px); letter-spacing: -2px; line-height: 1.2; }
+.intro { color: #586b80; line-height: 1.8; word-break: keep-all; }
+.connection { background: #f2f7fc; border: 1px solid #dce8f4; border-radius: 20px; margin-top: 40px; padding: 32px; }
+.connection-heading { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.section-label { margin: 0; letter-spacing: .5px; }
+.status { display: inline-flex; align-items: center; gap: 7px; color: #526579; font-size: 13px; white-space: nowrap; }
+.status-dot { width: 8px; height: 8px; border-radius: 50%; background: #7188a0; }
+.connected .status-dot { background: #23754b; }
+.failed .status-dot { background: #b76920; }
+.connection h2 { margin: 28px 0 12px; font-size: 26px; letter-spacing: -.6px; }
+.connection p:not(.section-label) { color: #526579; line-height: 1.8; word-break: keep-all; }
+button { margin-top: 14px; min-height: 44px; border: 0; border-radius: 9px; padding: 11px 20px; background: #223247; color: white; font: inherit; font-size: 14px; font-weight: 700; cursor: pointer; }
+button:hover:not(:disabled) { background: #344d6c; }
+button:disabled { background: #627489; cursor: wait; }
+:focus-visible { outline: 3px solid #3378b8; outline-offset: 4px; }
+.steps { margin-top: 48px; }
+.steps > h2 { font-size: 19px; letter-spacing: -.4px; }
+.steps ol { padding: 0; list-style: none; }
+.steps li { display: flex; gap: 20px; align-items: flex-start; padding: 22px 0; border-bottom: 1px solid #e3eaf1; }
+.step-number { font-size: 13px; color: #3378b8; font-weight: 700; margin-top: 3px; }
+.steps h3 { margin: 0; font-size: 16px; }
+.steps p { color: #586b80; font-size: 14px; margin: 8px 0 0; line-height: 1.7; word-break: keep-all; }
+footer { border-top: 1px solid #e3eaf1; padding: 26px 0; font-size: 12px; color: #586b80; }
+@media (max-width: 600px) {
+  .page { padding: 0 20px; }
+  .header { min-height: 76px; }
+  .environment { font-size: 11px; }
+  main { margin: 56px auto; }
+  .connection { padding: 24px; }
+  .connection h2 { font-size: 22px; }
+}
