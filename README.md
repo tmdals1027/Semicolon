@@ -129,9 +129,10 @@ docker compose ps
 ## 다음 작업
 
 1. [기능 설계 초안](docs/feature-plan.md)의 미정 항목을 결정합니다.
-2. 회원과 운영진의 권한을 정하고 DB와 API를 설계합니다.
+2. [DB 설계 v0.1](docs/database-design.md)을 검토하고 회원·권한·일정부터 실제 DB와 API를 구현합니다.
 3. 일정 조회부터 화면과 서버를 연결하며 기능을 구현합니다.
 
 - [프로젝트 구조와 기술 결정](docs/architecture.md)
+- [DB 설계와 관계도](docs/database-design.md) · [컬럼 사전](docs/database-dictionary.md) · [SQL 초안](docs/database-schema.sql)
 - [작업 방법](docs/workflow.md)
 - [Figma 디자인](https://www.figma.com/design/CIYobCa73UFy3nl1X1SRxH/semicolon?node-id=31-255)
